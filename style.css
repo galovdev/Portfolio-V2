@@ -1,0 +1,148 @@
+@font-face {
+    font-family: GraphikLight;
+    src: url(Graphik-Light-Trial.otf);
+    }
+    @font-face {
+    font-family: GraphikMedium;
+    src: url(Graphik-Medium-Trial.otf);
+    }
+    @font-face {
+    font-family: GraphikRegular;
+    src: url(Graphik-Regular-Trial.otf);
+    }
+    @font-face {
+    font-family: GraphikSemiBold;
+    src: url(Graphik-Semibold-Trial.otf);
+    }
+    @font-face {
+    font-family: GraphikBold;
+    src: url(Graphik-Bold-Trial.otf);
+    }
+    @font-face {
+    font-family: GraphikBlack;
+    src: url(Graphik-Black-Trial.otf);
+    }
+    @font-face {
+    font-family: NanumPet;
+    src: url(NanumPenScript-Regular.ttf);
+    }
+    @font-face {
+    font-family: MontserratBold;
+    src: url(Montserrat-Bold.otf);
+    }
+    
+body, html, h1, h2, h3, h4, p {
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1;
+}
+
+h1, h2, h3, h4, p {
+    margin-bottom: 1rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+nav {
+    width: 100%;
+}
+
+.nav-container {
+    width: 84%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.6rem;
+}
+
+@media (max-width:600px) {
+    .nav-container {
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-logo{
+        margin: auto;
+        justify-content: center;
+    }
+    nav ul {
+        padding: 0.8rem 0rem 0rem 0rem;
+    }
+    .nav-links a{
+        font-size: 0.86rem;
+        width: 100%;
+        margin: 0rem;
+    }
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-btn{
+    font-family: GraphikMedium;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 0.68rem 1.2rem 0.7rem 1.2rem;
+    margin: 0rem 0.2rem;
+    letter-spacing: 0.02rem;
+    color: #1c1c1c;
+}
+
+.nav-btn:hover {
+    background-color: #f3f7ff;
+    border-radius: 0.3rem;
+}
+
+#bracket-logo {
+    color: #2d6bef;
+    padding-top: 0.2rem;
+}
+
+#contact-nav-btn {
+    background-color: white;
+    cursor: pointer;
+    color: #2d6bef;
+    margin-left: 0.24rem;
+    border-radius: 0.3rem;
+    border: .1rem solid #2d6bef;
+    padding: 0.58rem 1.05rem;
+}
+
+#contact-nav-btn:hover:visited {
+    background-color: #2d6bef;
+    color: white;
+}
+
+main {
+    width: 100%;
+}
+
+.main-container {
+    width: 84%;
+    max-width: 1400px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-info{
+    width: 40%;
+}
+
+.main-img {
+    width: 40%;
+}
+
+
