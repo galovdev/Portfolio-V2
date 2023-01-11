@@ -38,7 +38,7 @@
 
             <div class="main-info">
                 <div id="main-title" class="main-title">
-                    <h1>Hi !<br> <span>My name is Galo</span> </h1>
+                    <h1 id="main-h1">Hi !<br> <span id="span-h1">My name is Galo</span> </h1>
                 </div> 
 
                 <div class="wrapper">
@@ -83,7 +83,80 @@
         </div>
 
     </section>
+    
+    <section id="projectssection" class="projects-section">
 
+        <h2 class="section-title">Projects</h2>
+
+        <div class="projects-container">
+            
+            <div class="project-article">
+                <p class="project-title">Blog</p>
+                <p class="project-description">Website to promote a blogging site, with a simple and clean style.</p>
+                <span class="fa-stack fa-3x">
+                    <a href="https://blognow-pied.vercel.app/" target="_blank"><i class="fa-solid fa-circle fa-stack-2x" id="project-icon-bg"></i></a>
+                    <a href="https://blognow-pied.vercel.app/" target="_blank"><i class="fa-solid fa-solid fa-shop fa-stack-1x fa-inverse" id="project-icon"></i></a>
+                </span>
+
+            </div>
+            <div class="project-article">
+                <p class="project-title">Art Portfolio</p>
+                <p class="project-description">Portfolio for an artist, to show her work, store and contact information.</p>
+                <span class="fa-stack fa-3x">
+                    <a href="https://art-portfolio-three-pink.vercel.app/" target="_blank"><i class="fa-solid fa-circle fa-stack-2x" id="project-icon-bg"></i></a>
+                    <a href="https://art-portfolio-three-pink.vercel.app/" target="_blank"><i class="fa-solid fa-solid fa-newspaper fa-stack-1x fa-inverse" id="project-icon"></i></a>
+                </span>
+
+            </div>
+            <div class="project-article">
+                <p class="project-title">Tourism Site</p>
+                <p class="project-description">A website to promote tourism in the state of Querétaro.</p>
+                <span class="fa-stack fa-3x">
+                    <a href="https://queretaro-travel-xbe3.vercel.app/" target="_blank"><i class="fa-solid fa-circle fa-stack-2x" id="project-icon-bg"></i></a>
+                    <a href="https://queretaro-travel-xbe3.vercel.app/" target="_blank"><i class="fa-solid fa-solid fa-briefcase fa-stack-1x fa-inverse" id="project-icon"></i></a>
+                </span>
+
+            </div>
+            <div class="project-article">
+                <a class="project-title" href="https://www.behance.net/galovega"><p class="project-title">My Behance</p></a>
+                <p class="project-description">My UI and UX design portfolio.</p>
+                <span class="fa-stack fa-3x">
+                    <a href="https://www.behance.net/galovega" target="_blank"><i class="fa-solid fa-circle fa-stack-2x" id="project-icon-bg"></i></a>
+                    <a href="https://www.behance.net/galovega" target="_blank"><i class="fa-solid fa-palette fa-stack-1x fa-inverse" id="project-icon"></i></a>
+                </span>
+                
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contactsection" class="contact-section">
+
+        <div class="contact-container">
+
+        <form action="https://formsubmit.co/e496279a09a03efe472f42262d6fa3a9" method="POST">
+
+        <div class="contact-info-container">
+        <h2 class="contact-title">Let's get in touch</h2>
+        <h2 class="contact-info"></h2>
+        </div>
+
+        <div class="contact-form">
+            <input type="text" placeholder="Name" id="name" name="name" required>
+            <input type="text" placeholder="Email" id="email" name="email" required>
+            <textarea placeholder="Message" id="message" name="message" rows="5" required ></textarea>
+            <button type="submit" id="send-btn">Send</button>
+        </div>
+
+        <input type="hidden" name="_next" value="https://galov.dev">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_autoresponse" value="Message sent successfully!">
+
+        </form>
+
+        </div>
+
+    </section>
 
 
 
