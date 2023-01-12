@@ -76,6 +76,10 @@ nav {
     .nav-container {
         flex-direction: column;
         width: 100%;
+        margin: 0 auto;
+    }
+    nav{
+        width: 100%;
     }
     .nav-logo{
         margin: auto;
@@ -87,7 +91,7 @@ nav {
         justify-content: space-between;
     }
     .nav-links a{
-        font-size: 0.9rem;
+        font-size: 1rem;
         width: 100%;
         margin: 0rem;
     }
@@ -152,6 +156,7 @@ main {
 
 .main-img {
     width: 58%;
+    padding-top: 1.4em
 }
 
 @media (max-width:600px) {
@@ -167,8 +172,8 @@ main {
         margin-top: 2rem;
     }
     #main-h1, #span-h1{
-        font-size: 3.2rem;
-        line-height: 3.5rem;
+        font-size: 2.6rem;
+        line-height: 3rem;
     }
 }
 
@@ -258,6 +263,14 @@ main {
     letter-spacing: 0.1rem;
 }
 
+@media (max-width:800px) {
+    .section-title {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 2.6rem;
+    }
+}
+
 .about-container {
     width: 86%;
     max-width: 1400px;
@@ -311,7 +324,7 @@ main {
 
 @media (max-width:900px) {
     .about-info {
-        width: 88%;
+        width: 86%;
     }
     .about-description {
         font-size: 1rem;
@@ -326,6 +339,10 @@ main {
     .about-container {
         flex-direction: column;
         width: 100%;
+        padding: 4em 0em 0em 0em;
+    }
+    .about-img svg{
+        width: 56%;
     }
 }
 
@@ -397,9 +414,13 @@ main {
     .projects-container {
         margin: 0 auto;
         flex-direction: column;
+        padding: 4em 0em;
     }
     .project-article {
         width: 80%;
+    }
+    .projects-section h2{
+        padding-top: 0.8em;
     }
 }
 
@@ -412,6 +433,22 @@ main {
     width: 86%;
     max-width: 1400px;
     margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+    form {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .contact-title {
+        margin: 0%;
+        font-size: 2.6rem;
+        padding-bottom: 1.4em;
+        line-height: 3.3rem;
+        letter-spacing: 0rem;
+        text-align: center;
+    }
+    
 }
 
 .contact-container form {
@@ -469,6 +506,18 @@ main {
 
 .contact-title {
     color: #1c1c1c;
-    letter-spacing: 0.1rem ;
-    margin: 0.2em
+    letter-spacing: 0.1rem;;
+}
+
+.footer-section {
+    width: 100%;
+    background-color: #2d6bef;
+}
+
+.footer-container {
+    width: 86%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.4em 0em;
 }
