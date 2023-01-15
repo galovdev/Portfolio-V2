@@ -368,6 +368,7 @@ main {
     align-items: center;
     align-content: center;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .project-title {
@@ -423,6 +424,7 @@ main {
         padding-top: 0.8em;
     }
 }
+
 
 .contact-section {
     width: 100%;
@@ -521,3 +523,122 @@ main {
     justify-content: space-between;
     padding: 2.4em 0em;
 }
+
+.footer-links {
+    cursor: pointer;
+}
+
+#project-icon-bg-footer, #bracket-logo-footer {
+    color: white;
+}
+
+#project-icon-footer {
+    color: #2d6bef
+}
+
+ .modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.6em;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-size: 110%;
+    color: #1c1c1c;
+    letter-spacing: 0.006em;
+  }
+
+  .modal-input {
+    display: none;
+    justify-content: center;
+    padding-top: 0.6em;
+  }
+
+  #userName {
+    padding: 0.36em 1em 0.4em 1em;
+    font-family: GraphikMedium;
+    letter-spacing: 0.016rem;
+    font-size: 0.9rem;
+    color: #1c1c1c;
+    border: 0.126em solid #1c1c1c;
+    border-radius: 0.3em;
+    margin-right: 0.3em;
+    width: 19%;
+    background-color: white;
+  }
+
+  #submit-name-btn {
+    background-color: white;
+    border: 0.126em solid #2d6bef;
+    color: #2d6bef;
+    font-size: 0.9rem;
+    border-radius: 0.3em;
+    padding: 0.36em 1em 0.4em 1em;
+    font-family: GraphikMedium;
+    letter-spacing: 0.01rem;
+    cursor: pointer;
+  }
+
+  #submit-name-btn:hover {
+    background-color: #2d6bef;
+    color: white;
+  }
+
+  .line {
+    position: relative;
+    top: 8%;
+    width: 31.2em;
+    overflow: hidden;
+    transform: translateY(-50%);
+  }
+  
+  .modal-hi {
+    animation: typewriter 4s steps(14) 1s 1 normal both,
+      blinkTextCursor 500ms steps(14) infinite normal;
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 31.2em;
+    }
+  }
+  
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: red;
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+  
+  .typed-out {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s forwards;
+    font-size: 1.6rem;
+    width: 0;
+    border-right: 0.15em solid white;
+  }
+  
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
