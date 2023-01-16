@@ -195,6 +195,33 @@
 
     <form id="consent-form">
 
+        <div class="modal" id="modal">
+           
+            <div class="container">
+            
+                <div id="typed-strings">
+                <p> Hi!</p>
+                <p>Welcome<strong></strong></p>
+                <p>Please type your name for a personalized experience</p>
+                </div>
+                <span id="typed"></span>
+            
+                <div class="modal-input" id="modal-input">
+                <input type="text" name="userName" id="userName" placeholder="name" required>
+                <button type="submit" id="submit-name-btn">Submit</button>
+                </div>
+            
+            </div>
+            
+            </form>
+            
+            <script>
+            var typed = new Typed('#typed', {
+            stringsElement: '#typed-strings',
+            typeSpeed: 60,
+            backSpeed: 0,
+            });
+            </script>
 
 </body>
 </html>
