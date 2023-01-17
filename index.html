@@ -26,7 +26,7 @@
                     <li><a href="#mainsection" class="nav-btn">Home</a></li>
                     <li><a href="#aboutsection" class="nav-btn">About</a></li>
                     <li><a href="#projectssection" class="nav-btn">Projects</a></li>
-                    <li><a href="#contactsection" class="nav-btn" id="contact-nav-btn">Contact</a></li>
+                    <li><a href="#contactsection" class="nav-btn contact-btn" id="contact-nav-btn">Contact</a></li>
                 </ul>
             </div>
 
@@ -198,22 +198,21 @@
         <div class="modal" id="modal">
            
             <div class="container">
-            
                 <div id="typed-strings">
                 <p> Hi!</p>
                 <p>Welcome<strong></strong></p>
                 <p>Please type your name for a personalized experience</p>
                 </div>
                 <span id="typed"></span>
-            
                 <div class="modal-input" id="modal-input">
                 <input type="text" name="userName" id="userName" placeholder="name" required>
                 <button type="submit" id="submit-name-btn">Submit</button>
                 </div>
-            
             </div>
-            
-            </form>
+    
+        </div>
+
+    </form>
             
             <script>
             var typed = new Typed('#typed', {
