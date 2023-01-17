@@ -36,6 +36,10 @@ html, body {
     height: 100%;
 }
 
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
 body, html, h1, h2, h3, h4, p {
     margin: 0;
 }
@@ -64,6 +68,7 @@ nav {
 
 .nav-container {
     width: 86%;
+    box-sizing: border-box;
     max-width: 1400px;
     margin: 0 auto;
     display: flex;
@@ -359,6 +364,7 @@ main {
     max-width: 1400px;
     margin: 6em auto 10em auto;
     display: flex;
+    box-sizing: border-box;
     justify-content: space-between;
     gap: 2em;
 }
