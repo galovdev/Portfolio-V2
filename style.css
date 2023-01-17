@@ -31,18 +31,47 @@
     src: url(Montserrat-Bold.otf);
     }
     
-
-html, body {
-    height: 100%;
-}
-
-*, *::after, *::before {
-    box-sizing: border-box;
-}
-
-body, html, h1, h2, h3, h4, p {
-    margin: 0;
-}
+    nav, main, section, footer{ 
+        width: 100%;
+        max-width: 1400px;
+    }
+    
+    *, body, html, img, picture, svg, nav, main, section, footer { 
+        margin:0; 
+        padding: 0; 
+        font: inherit;
+        box-sizing: border-box;
+    }
+    
+    ul[ role=”list” ], ol [ role=”list”] {
+        list-style:none; 
+    }
+    
+    html:focus-within {
+         scroll-behavior: smooth 
+        }
+    
+    html, body {
+        height:100% 
+    } 
+    
+    body { 
+        text-rendering: optimize-speed; 
+        line-height: 1.5;
+        min-height: 100vh
+    }
+    
+    *, 
+    *::before, 
+    *::after {
+        box-sizing:border-box;
+    }
+    
+    img, picture, svg {
+        max-width: 100%;
+        display: block
+    }
+    
 
 body {
     background-color: white;
@@ -64,6 +93,7 @@ img {
 
 nav {
     width: 100%;
+    box-sizing: border-box;
 }
 
 .nav-container {
@@ -370,7 +400,7 @@ main {
 }
 
 .project-article {
-    width: 28%;
+    width: 100%;
     padding: 4em 2em;
     box-shadow: #dfdfdf 0px 10px 22px;
     display: flex;
