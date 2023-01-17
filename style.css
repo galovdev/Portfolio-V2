@@ -39,7 +39,6 @@
     *, body, html, img, picture, svg, nav, main, section, footer { 
         margin:0; 
         padding: 0; 
-        font: inherit;
         box-sizing: border-box;
     }
     
@@ -390,7 +389,7 @@ main {
 }
 
 .projects-container {
-    width: 86%;
+    width: 88%;
     max-width: 1400px;
     margin: 6em auto 10em auto;
     display: flex;
@@ -400,7 +399,7 @@ main {
 }
 
 .project-article {
-    width: 100%;
+    width: 33%;
     padding: 4em 2em;
     box-shadow: #dfdfdf 0px 10px 22px;
     display: flex;
@@ -456,9 +455,10 @@ main {
         margin: 0 auto;
         flex-direction: column;
         padding: 4em 0em;
+        box-sizing: border-box;
     }
     .project-article {
-        width: 80%;
+        width: 100%;
     }
     .projects-section h2{
         padding-top: 0.8em;
