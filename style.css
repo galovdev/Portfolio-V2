@@ -115,25 +115,26 @@ nav {
     }
     nav{
         width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
     }
     .nav-logo{
         margin: auto;
         justify-content: center;
-        margin-bottom: 0.8rem 0rem;
+        margin-bottom: 1em 0em;
     }
-    nav ul {
-        padding: 0.8rem 0rem 0rem 0rem;
+    .nav-links {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .nav-links ul{
+        margin: 0 auto;
         justify-content: space-between;
     }
     .nav-links a{
-        font-size: 1rem;
-        width: 100%;
-        margin: 0rem;
-        padding: 0rem 0.86rem;
-    }
-    .nav-links {
-        width: 88%;
-        margin: 0 auto;
+        margin: 0%;
     }
     a#contact-nav-btn{
         border: 0rem;
