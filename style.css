@@ -181,9 +181,9 @@ nav ul{
 }
 
 main {
-    width: 86%;
+    width: 88%;
     max-width: 1400px;
-    margin: 8em auto;
+    margin: 5em auto 8em auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
