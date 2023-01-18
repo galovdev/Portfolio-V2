@@ -586,7 +586,7 @@ main {
 }
 
  .modal {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -610,6 +610,12 @@ main {
     display: none;
     justify-content: center;
     padding-top: 0.6em;
+  }
+
+  @media (max-width: 600px) {
+    #userName, #submit-name-btn {
+        padding-top: 0.1em;
+    }
   }
 
   #userName {
