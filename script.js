@@ -5,5 +5,5 @@ const consentForm = document.getElementById("consent-form")
 
 setTimeout(function(){
     modal.style.display= "none"
-},2800)
+},2600)
 
