@@ -101,7 +101,7 @@ nav {
     width: 88%;
     box-sizing: border-box;
     max-width: 1400px;
-    min-height: 140px;
+    min-height: 100px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -115,6 +115,7 @@ nav {
         width: 100%;
         margin: 0 auto;
         box-sizing: border-box;
+        padding-top: 0.4em;
     }
     nav{
         width: 100%;
@@ -221,7 +222,9 @@ main {
     }
     .main-info{
         width: 100%;
-        padding-top: 2rem;
+        padding-top: 1.8rem;
+        line-height: 3.4rem;
+        letter-spacing: 0.01rem;
     }
     #main-h1, #span-h1{
         font-size: 2.6rem;
@@ -346,6 +349,7 @@ main {
     cursor: pointer;
     text-decoration: underline;
     letter-spacing: 0.02rem;
+    font-size: 1.24rem;
 }
 
 .about-info {
@@ -402,7 +406,7 @@ main {
     max-width: 1400px;
     margin: 6em auto 10em auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     grid-gap: 1.6em;
 } 
 
